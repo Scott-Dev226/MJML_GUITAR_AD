@@ -2,7 +2,7 @@
 
 
 <mj-head>
-<mj-font href='https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300'>
+<mj-font name="Saira Semi Condensed" href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed">
 </mj-head>
   <mj-body>
     <mj-section>
@@ -10,7 +10,7 @@
      <mj-image width="100px" src="/Images/pngaaa.com-2325497.png"></mj-image>
 
     <mj-divider border-color="lightblue"></mj-divider>
-        <mj-text font-size="20px" color="#F45E43" font-family= "Saira Semi Condensed"
+        <mj-text font-size="20px" color="#F45E43" font-family="Saira Semi Condensed"
          align="center" >Welcome to Nick's Guitar Shop</mj-text
         >
     </mj-column>
@@ -22,6 +22,7 @@
         <mj-text font-size="20px" color="#F45E43" font-family="helvetica"
           >Hello World</mj-text
         >
+        <mj-image width="100px" src="/Images/20220410_140628.jpg"></mj-image>
       </mj-column>
           <mj-column background-color="white">
        
