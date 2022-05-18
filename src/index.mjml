@@ -2,32 +2,39 @@
 
 
   <mj-head>
+    <mj-style>
+      .carousel div {
+        margin-top: 10px;
+      }
+    </mj-style>
+
+    <mj-style>
+      .carousel_img div {
+        border-radius: 55px;
+      }
+    </mj-style>
     <mj-font name="Saira Semi Condensed" href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed"></mj-font>
     <mj-font name="Josefin Sans" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300">
   </mj-head>
-  <mj-body background-color="black" width="500px" >
-    <mj-section background-url="assets/pexels-photo-7380032-guitarandbass.jpeg" background-size="cover" >
-      <mj-column width="100%" >
-        <mj-image width="0px" src="/Images/pngaaa.com-2325497.png"></mj-image>
+  <mj-body background-color="black" width="800px">
+    <mj-section background-url="https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" background-size="cover">
+      <mj-column width="100%" background-color="black">
+        <mj-image width="100px" src="https://raw.githubusercontent.com/Scott-Dev226/MJML_GUITAR_AD/master/src/Images/pngaaa.com-2325497.png" padding="0px"></mj-image>
         <mj-text font-size="25px" color="white" font-family="Josefin Sans" align="center">Nick's Guitar Shop</mj-text>
         <mj-divider border-color="lightblue"></mj-divider>
 
       </mj-column>
 
-
-      <mj-column width="100%" >
-
-
-        <mj-text font-size="14px" color="white" font-family="Saira Semi Condensed" align="center" padding-bottom="0px">Fender CD-60SCE</mj-text>
-        <mj-image height="370px" width="250px" src="/Images/pexels-photo-2021348-Tagima.jpeg" border-radius="15px" border="1.5px ridge grey"></mj-image>
-       
+      <mj-column width="65%">
+        <mj-carousel css-class="carousel">
+          <mj-carousel-image   border-radius="35px" src="https://images.unsplash.com/photo-1649393153856-c4929d8e309f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <mj-carousel-image  border-radius="35px" src="https://images.unsplash.com/photo-1612176894383-70b2ca9abfd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <mj-carousel-image  border-radius="35px" src="https://images.unsplash.com/photo-1580745089072-032cbde08507?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+        </mj-carousel>
       </mj-column>
-      <mj-column width="100%" >
-     
 
-        <mj-text font-size="14px" color="white" align="center" font-family="Saira Semi Condensed" padding-bottom="0px"> Martin OM-28.jpg</mj-text>
-         <mj-image  height="370px" width="250px" src="/Images/sergei-sushchik-Dyo5xZX687M-unsplash    Martin OM-28.jpg" border-radius="15px" border="1.5px ridge grey"></mj-image>
-      </mj-column>
+
+
       </mj-column>
     </mj-section>
   </mj-body>
