@@ -2,40 +2,83 @@
 
 
   <mj-head>
+
+    <mj-style>
+      .standard_section div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    </mj-style>
     <mj-style>
       .carousel div {
         margin-top: 10px;
+        margin-bottom: 8px;
+
       }
     </mj-style>
 
     <mj-style>
       .carousel_img div {
-        border-radius: 55px;
+        border: 2px groove black;
       }
     </mj-style>
-    <mj-font name="Saira Semi Condensed" href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed"></mj-font>
-    <mj-font name="Josefin Sans" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300">
+
+    <mj-style>
+      .ad_banner div {
+        height: min-content;
+        background-color: rgb(116, 6, 0);
+        padding: 0;
+        margin: 0;
+
+
+      }
+    </mj-style>
+
+    <mj-style>
+      .banner_txt div {
+        background-color: white;
+        color: black;
+ 
+      }
+    </mj-style>
+
+
+  
   </mj-head>
   <mj-body background-color="black" width="800px">
-    <mj-section background-url="https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" background-size="cover">
-      <mj-column width="100%" background-color="black">
-        <mj-image width="100px" src="https://raw.githubusercontent.com/Scott-Dev226/MJML_GUITAR_AD/master/src/Images/pngaaa.com-2325497.png" padding="0px"></mj-image>
-        <mj-text font-size="25px" color="white" font-family="Josefin Sans" align="center">Nick's Guitar Shop</mj-text>
-        <mj-divider border-color="lightblue"></mj-divider>
+    <mj-wrapper background-url="https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" background-size="cover">
+      <mj-section padding-bottom="5px" padding-top="0px">
+        <mj-column width="100%" background-color="black">
+          <mj-image width="100px" src="https://raw.githubusercontent.com/Scott-Dev226/MJML_GUITAR_AD/master/src/Images/pngaaa.com-2325497.png" padding="0px"></mj-image>
+          <mj-text font-size="25px" color="white" font-family="Century Gothic" align="center" >Nick's Guitar Shop</mj-text>
+          <mj-divider border-color="lightblue"></mj-divider>
 
-      </mj-column>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="5px" padding-bottom="5px">
+        <mj-column width="100%" css-class="ad_banner">
 
-      <mj-column width="65%">
-        <mj-carousel css-class="carousel">
-          <mj-carousel-image   border-radius="35px" src="https://images.unsplash.com/photo-1649393153856-c4929d8e309f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
-          <mj-carousel-image  border-radius="35px" src="https://images.unsplash.com/photo-1612176894383-70b2ca9abfd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
-          <mj-carousel-image  border-radius="35px" src="https://images.unsplash.com/photo-1580745089072-032cbde08507?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
-        </mj-carousel>
-      </mj-column>
+          <mj-text css-class="banner_txt" font-size="35px" font-family="Impact"  align="center" padding-bottom="0px" padding-right="0px" padding-left="0px">~Memorial Day Sale~ </mj-text>
+          <mj-text css-class="banner_txt" font-size="45px" font-family="Brush Script MT" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px" font-weight="bold"> 10% off!!</mj-text>
+          <mj-text css-class="banner_txt" font-size="18px" font-family="Perpetua" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px"> -All New Guitars in Stock-</mj-text>
 
+        </mj-column>
+        <mj-column width="100%" background-color="white">
+          <mj-button font-family="Helvetica" background-color="#f45e43" color="white" href="https://scott-dev226.github.io/Nicks_Guitar_Shop/">
+            Link to Store
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="70%" background-color="black">
+          <mj-carousel css-class="carousel">
+            <mj-carousel-image css-class="carousel_img" border-radius="10px" src="https://images.unsplash.com/photo-1617256578880-2a48efc3c2ba?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" />
+            <mj-carousel-image border-radius="10px" src="https://images.unsplash.com/photo-1617160895032-11179689e7b5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" />
+            <mj-carousel-image border-radius="10px" src="https://images.unsplash.com/photo-1589471861110-1144cd568519?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" />
+          </mj-carousel>
+        </mj-column>
 
-
-      </mj-column>
-    </mj-section>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

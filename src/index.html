@@ -58,20 +58,16 @@
       .mj-outlook-group-fix { width:100% !important; }
     </style>
     <![endif]-->
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Saira+Semi+Condensed);
-    @import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300);
-
-  </style>
-  <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
       .mj-column-per-100 {
         width: 100% !important;
         max-width: 100%;
+      }
+
+      .mj-column-per-70 {
+        width: 70% !important;
+        max-width: 70%;
       }
     }
 
@@ -82,8 +78,116 @@
       max-width: 100%;
     }
 
+    .moz-text-html .mj-column-per-70 {
+      width: 70% !important;
+      max-width: 70%;
+    }
+
   </style>
   <style type="text/css">
+    .mj-carousel {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    .mj-carousel-bf5c71844048-icons-cell {
+      display: table-cell !important;
+      width: 44px !important;
+    }
+
+    .mj-carousel-radio,
+    .mj-carousel-next,
+    .mj-carousel-previous {
+      display: none !important;
+    }
+
+    .mj-carousel-thumbnail,
+    .mj-carousel-next,
+    .mj-carousel-previous {
+      touch-action: manipulation;
+    }
+
+    .mj-carousel-bf5c71844048-radio:checked+.mj-carousel-content .mj-carousel-image,
+    .mj-carousel-bf5c71844048-radio:checked+*+.mj-carousel-content .mj-carousel-image,
+    .mj-carousel-bf5c71844048-radio:checked+*+*+.mj-carousel-content .mj-carousel-image {
+      display: none !important;
+    }
+
+    .mj-carousel-bf5c71844048-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-image-1,
+    .mj-carousel-bf5c71844048-radio-2:checked+*+.mj-carousel-content .mj-carousel-image-2,
+    .mj-carousel-bf5c71844048-radio-3:checked+.mj-carousel-content .mj-carousel-image-3 {
+      display: block !important;
+    }
+
+    .mj-carousel-previous-icons,
+    .mj-carousel-next-icons,
+    .mj-carousel-bf5c71844048-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-next-2,
+    .mj-carousel-bf5c71844048-radio-2:checked+*+.mj-carousel-content .mj-carousel-next-3,
+    .mj-carousel-bf5c71844048-radio-3:checked+.mj-carousel-content .mj-carousel-next-1,
+    .mj-carousel-bf5c71844048-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-previous-3,
+    .mj-carousel-bf5c71844048-radio-2:checked+*+.mj-carousel-content .mj-carousel-previous-1,
+    .mj-carousel-bf5c71844048-radio-3:checked+.mj-carousel-content .mj-carousel-previous-2 {
+      display: block !important;
+    }
+
+    .mj-carousel-bf5c71844048-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-bf5c71844048-thumbnail-1,
+    .mj-carousel-bf5c71844048-radio-2:checked+*+.mj-carousel-content .mj-carousel-bf5c71844048-thumbnail-2,
+    .mj-carousel-bf5c71844048-radio-3:checked+.mj-carousel-content .mj-carousel-bf5c71844048-thumbnail-3 {
+      border-color: #cccccc !important;
+    }
+
+    .mj-carousel-image img+div,
+    .mj-carousel-thumbnail img+div {
+      display: none !important;
+    }
+
+    .mj-carousel-bf5c71844048-thumbnail:hover+*+*+.mj-carousel-main .mj-carousel-image,
+    .mj-carousel-bf5c71844048-thumbnail:hover+*+.mj-carousel-main .mj-carousel-image,
+    .mj-carousel-bf5c71844048-thumbnail:hover+.mj-carousel-main .mj-carousel-image {
+      display: none !important;
+    }
+
+    .mj-carousel-thumbnail:hover {
+      border-color: #fead0d !important;
+    }
+
+    .mj-carousel-bf5c71844048-thumbnail-1:hover+*+*+.mj-carousel-main .mj-carousel-image-1,
+    .mj-carousel-bf5c71844048-thumbnail-2:hover+*+.mj-carousel-main .mj-carousel-image-2,
+    .mj-carousel-bf5c71844048-thumbnail-3:hover+.mj-carousel-main .mj-carousel-image-3 {
+      display: block !important;
+    }
+
+    .mj-carousel noinput {
+      display: block !important;
+    }
+
+    .mj-carousel noinput .mj-carousel-image-1 {
+      display: block !important;
+    }
+
+    .mj-carousel noinput .mj-carousel-arrows,
+    .mj-carousel noinput .mj-carousel-thumbnails {
+      display: none !important;
+    }
+
+    [owa] .mj-carousel-thumbnail {
+      display: none !important;
+    }
+
+    @media screen yahoo {
+
+      .mj-carousel-bf5c71844048-icons-cell,
+      .mj-carousel-previous-icons,
+      .mj-carousel-next-icons {
+        display: none !important;
+      }
+
+      .mj-carousel-bf5c71844048-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-bf5c71844048-thumbnail-1 {
+        border-color: transparent;
+      }
+    }
+
     @media only screen and (max-width:480px) {
       table.mj-full-width-mobile {
         width: 100% !important;
@@ -96,102 +200,237 @@
 
   </style>
   <style type="text/css">
+    .standard_section div {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .carousel div {
+      margin-top: 10px;
+      margin-bottom: 8px;
+    }
+
+    .carousel_img div {
+      border: 2px groove black;
+    }
+
+    .ad_banner div {
+      height: min-content;
+      background-color: rgb(116, 6, 0);
+      padding: 0;
+      margin: 0;
+    }
+
+    .banner_txt div {
+      background-color: white;
+      color: black;
+    }
+
   </style>
 </head>
 
 <body style="word-spacing:normal;background-color:black;">
   <div style="background-color:black;">
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:500px;" width="500" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:500px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0.5, 0" position="0.5, 0" src="assets/pexels-photo-7380032-guitarandbass.jpeg" type="tile" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
-    <div style="background:url('assets/pexels-photo-7380032-guitarandbass.jpeg') center top / cover repeat;background-position:center top;background-repeat:repeat;background-size:cover;margin:0px auto;max-width:500px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:800px;" width="800" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:800px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0.5, 0" position="0.5, 0" src="https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" type="tile" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
+    <div style="background:url('https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center top / cover repeat;background-position:center top;background-repeat:repeat;background-size:cover;margin:0px auto;max-width:800px;">
       <div style="line-height:0;font-size:0;">
-        <table align="center" background="assets/pexels-photo-7380032-guitarandbass.jpeg" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url('assets/pexels-photo-7380032-guitarandbass.jpeg') center top / cover repeat;background-position:center top;background-repeat:repeat;background-size:cover;width:100%;">
+        <table align="center" background="https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url('https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center top / cover repeat;background-position:center top;background-repeat:repeat;background-size:cover;width:100%;">
           <tbody>
             <tr>
               <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:500px;" ><![endif]-->
-                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="800px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:800px;" width="800" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                <div style="margin:0px auto;max-width:800px;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                     <tbody>
                       <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                            <tbody>
-                              <tr>
-                                <td style="width:0px;">
-                                  <img height="auto" src="/Images/pngaaa.com-2325497.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="0" />
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <div style="font-family:Josefin Sans;font-size:25px;line-height:1;text-align:center;color:white;">Nick's Guitar Shop</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <p style="border-top:solid 4px lightblue;font-size:1px;margin:0px auto;width:100%;">
-                          </p>
-                          <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 4px lightblue;font-size:1px;margin:0px auto;width:450px;" role="presentation" width="450px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+                        <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:5px;padding-top:0px;text-align:center;">
+                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:800px;" ><![endif]-->
+                          <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:black;vertical-align:top;" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="width:100px;">
+                                            <img height="auto" src="https://raw.githubusercontent.com/Scott-Dev226/MJML_GUITAR_AD/master/src/Images/pngaaa.com-2325497.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="100" />
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                    <div style="font-family:Century Gothic;font-size:25px;line-height:1;text-align:center;color:white;">Nick's Guitar Shop</div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                    <p style="border-top:solid 4px lightblue;font-size:1px;margin:0px auto;width:100%;">
+                                    </p>
+                                    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 4px lightblue;font-size:1px;margin:0px auto;width:750px;" role="presentation" width="750px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]></td></tr></table><![endif]-->
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:500px;" ><![endif]-->
-                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="800px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:800px;" width="800" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                <div style="margin:0px auto;max-width:800px;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                     <tbody>
                       <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:0px;word-break:break-word;">
-                          <div style="font-family:Saira Semi Condensed;font-size:14px;line-height:1;text-align:center;color:white;">Fender CD-60SCE</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                            <tbody>
-                              <tr>
-                                <td style="width:250px;">
-                                  <img height="370" src="/Images/pexels-photo-2021348-Tagima.jpeg" style="border:1.5px ridge grey;border-radius:15px;display:block;outline:none;text-decoration:none;height:370px;width:100%;font-size:13px;" width="250" />
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
+                        <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:5px;padding-top:5px;text-align:center;">
+                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="ad_banner-outlook" style="vertical-align:top;width:800px;" ><![endif]-->
+                          <div class="mj-column-per-100 mj-outlook-group-fix ad_banner" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="center" class="banner_txt" style="font-size:0px;padding:10px 25px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
+                                    <div style="font-family:Impact;font-size:35px;line-height:1;text-align:center;color:#000000;">~Memorial Day Sale~</div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" class="banner_txt" style="font-size:0px;padding:10px 25px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
+                                    <div style="font-family:Brush Script MT;font-size:45px;font-weight:bold;line-height:1;text-align:center;color:#000000;">10% off!!</div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" class="banner_txt" style="font-size:0px;padding:10px 25px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
+                                    <div style="font-family:Perpetua;font-size:18px;line-height:1;text-align:center;color:#000000;">-All New Guitars in Stock-</div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:800px;" ><![endif]-->
+                          <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:white;vertical-align:top;" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" bgcolor="#f45e43" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#f45e43;" valign="middle">
+                                            <a href="https://scott-dev226.github.io/Nicks_Guitar_Shop/" style="display:inline-block;background:#f45e43;color:white;font-family:Helvetica;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Link to Store </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]></td></tr></table><![endif]-->
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:500px;" ><![endif]-->
-                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="800px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:800px;" width="800" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                <div style="margin:0px auto;max-width:800px;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                     <tbody>
                       <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:0px;word-break:break-word;">
-                          <div style="font-family:Saira Semi Condensed;font-size:14px;line-height:1;text-align:center;color:white;">Martin OM-28.jpg</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                            <tbody>
-                              <tr>
-                                <td style="width:250px;">
-                                  <img height="370" src="/Images/sergei-sushchik-Dyo5xZX687M-unsplash    Martin OM-28.jpg" style="border:1.5px ridge grey;border-radius:15px;display:block;outline:none;text-decoration:none;height:370px;width:100%;font-size:13px;" width="250" />
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
+                        <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:560px;" ><![endif]-->
+                          <div class="mj-column-per-70 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:black;vertical-align:top;" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="center" class="carousel" style="font-size:0px;word-break:break-word;">
+                                    <!--[if !mso><!-->
+                                    <div class="mj-carousel">
+                                      <input class="mj-carousel-radio mj-carousel-bf5c71844048-radio mj-carousel-bf5c71844048-radio-1" checked="checked" type="radio" name="mj-carousel-radio-bf5c71844048" id="mj-carousel-bf5c71844048-radio-1" style="display:none;mso-hide:all;" />
+                                      <input class="mj-carousel-radio mj-carousel-bf5c71844048-radio mj-carousel-bf5c71844048-radio-2" type="radio" name="mj-carousel-radio-bf5c71844048" id="mj-carousel-bf5c71844048-radio-2" style="display:none;mso-hide:all;" />
+                                      <input class="mj-carousel-radio mj-carousel-bf5c71844048-radio mj-carousel-bf5c71844048-radio-3" type="radio" name="mj-carousel-radio-bf5c71844048" id="mj-carousel-bf5c71844048-radio-3" style="display:none;mso-hide:all;" />
+                                      <div class="mj-carousel-content mj-carousel-bf5c71844048-content" style="display:table;width:100%;table-layout:fixed;text-align:center;font-size:0px;">
+                                        <a style="border:2px solid transparent;border-radius:6px;display:inline-block;overflow:hidden;width:110px;" href="#1" target="_blank" class="mj-carousel-thumbnail mj-carousel-bf5c71844048-thumbnail mj-carousel-bf5c71844048-thumbnail-1 carousel_img-thumbnail">
+                                          <label for="mj-carousel-bf5c71844048-radio-1">
+                                            <img style="display:block;width:100%;height:auto;" src="https://images.unsplash.com/photo-1617256578880-2a48efc3c2ba?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" width="110" />
+                                          </label>
+                                        </a>
+                                        <a style="border:2px solid transparent;border-radius:6px;display:inline-block;overflow:hidden;width:110px;" href="#2" target="_blank" class="mj-carousel-thumbnail mj-carousel-bf5c71844048-thumbnail mj-carousel-bf5c71844048-thumbnail-2 ">
+                                          <label for="mj-carousel-bf5c71844048-radio-2">
+                                            <img style="display:block;width:100%;height:auto;" src="https://images.unsplash.com/photo-1617160895032-11179689e7b5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" width="110" />
+                                          </label>
+                                        </a>
+                                        <a style="border:2px solid transparent;border-radius:6px;display:inline-block;overflow:hidden;width:110px;" href="#3" target="_blank" class="mj-carousel-thumbnail mj-carousel-bf5c71844048-thumbnail mj-carousel-bf5c71844048-thumbnail-3 ">
+                                          <label for="mj-carousel-bf5c71844048-radio-3">
+                                            <img style="display:block;width:100%;height:auto;" src="https://images.unsplash.com/photo-1589471861110-1144cd568519?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" width="110" />
+                                          </label>
+                                        </a>
+                                        <table style="caption-side:top;display:table-caption;table-layout:fixed;width:100%;" border="0" cell-padding="0" cell-spacing="0" width="100%" role="presentation" class="mj-carousel-main">
+                                          <tbody>
+                                            <tr>
+                                              <td class="mj-carousel-bf5c71844048-icons-cell" style="font-size:0px;display:none;mso-hide:all;padding:0px;">
+                                                <div class="mj-carousel-previous-icons" style="display:none;mso-hide:all;">
+                                                  <label for="mj-carousel-bf5c71844048-radio-1" class="mj-carousel-previous mj-carousel-previous-1">
+                                                    <img src="https://i.imgur.com/xTh3hln.png" alt="previous" style="display:block;width:44px;height:auto;" width="44" />
+                                                  </label>
+                                                  <label for="mj-carousel-bf5c71844048-radio-2" class="mj-carousel-previous mj-carousel-previous-2">
+                                                    <img src="https://i.imgur.com/xTh3hln.png" alt="previous" style="display:block;width:44px;height:auto;" width="44" />
+                                                  </label>
+                                                  <label for="mj-carousel-bf5c71844048-radio-3" class="mj-carousel-previous mj-carousel-previous-3">
+                                                    <img src="https://i.imgur.com/xTh3hln.png" alt="previous" style="display:block;width:44px;height:auto;" width="44" />
+                                                  </label>
+                                                </div>
+                                              </td>
+                                              <td style="padding:0px;">
+                                                <div class="mj-carousel-images">
+                                                  <div class="mj-carousel-image mj-carousel-image-1 carousel_img" style="">
+                                                    <img src="https://images.unsplash.com/photo-1617256578880-2a48efc3c2ba?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" style="border-radius:10px;display:block;width:560px;max-width:100%;height:auto;" width="560" border="0" />
+                                                  </div>
+                                                  <div class="mj-carousel-image mj-carousel-image-2 " style="display:none;mso-hide:all;">
+                                                    <img src="https://images.unsplash.com/photo-1617160895032-11179689e7b5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" style="border-radius:10px;display:block;width:560px;max-width:100%;height:auto;" width="560" border="0" />
+                                                  </div>
+                                                  <div class="mj-carousel-image mj-carousel-image-3 " style="display:none;mso-hide:all;">
+                                                    <img src="https://images.unsplash.com/photo-1589471861110-1144cd568519?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" style="border-radius:10px;display:block;width:560px;max-width:100%;height:auto;" width="560" border="0" />
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td class="mj-carousel-bf5c71844048-icons-cell" style="font-size:0px;display:none;mso-hide:all;padding:0px;">
+                                                <div class="mj-carousel-next-icons" style="display:none;mso-hide:all;">
+                                                  <label for="mj-carousel-bf5c71844048-radio-1" class="mj-carousel-next mj-carousel-next-1">
+                                                    <img src="https://i.imgur.com/os7o9kz.png" alt="next" style="display:block;width:44px;height:auto;" width="44" />
+                                                  </label>
+                                                  <label for="mj-carousel-bf5c71844048-radio-2" class="mj-carousel-next mj-carousel-next-2">
+                                                    <img src="https://i.imgur.com/os7o9kz.png" alt="next" style="display:block;width:44px;height:auto;" width="44" />
+                                                  </label>
+                                                  <label for="mj-carousel-bf5c71844048-radio-3" class="mj-carousel-next mj-carousel-next-3">
+                                                    <img src="https://i.imgur.com/os7o9kz.png" alt="next" style="display:block;width:44px;height:auto;" width="44" />
+                                                  </label>
+                                                </div>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                    <!--<![endif]-->
+                                    <!--[if mso]><div class="mj-carousel-image mj-carousel-image-1 carousel_img" style="" ><img src="https://images.unsplash.com/photo-1617256578880-2a48efc3c2ba?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880" style="border-radius:10px;display:block;width:560px;max-width:100%;height:auto;" width="560" border="0" /></div><![endif]-->
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]></td></tr></table><![endif]-->
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <!--[if mso | IE]></td></tr></table><![endif]-->
+                <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
