@@ -2,7 +2,11 @@
 
 
   <mj-head>
+    <mj-font name="Great Vibes" href="https://fonts.googleapis.com/css2?family=Great+Vibes" />
+    </mj-font>
 
+    <mj-font name="Bebas Neue" href="https://fonts.googleapis.com/css2?family=Bebas+Neue" />
+    </mj-font>
     <mj-style>
       .standard_section div {
         margin-top: 5px;
@@ -38,19 +42,19 @@
       .banner_txt div {
         background-color: white;
         color: black;
- 
+
       }
     </mj-style>
 
 
-  
+
   </mj-head>
   <mj-body background-color="black" width="800px">
     <mj-wrapper background-url="https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" background-size="cover">
       <mj-section padding-bottom="5px" padding-top="0px">
         <mj-column width="100%" background-color="black">
           <mj-image width="100px" src="https://raw.githubusercontent.com/Scott-Dev226/MJML_GUITAR_AD/master/src/Images/pngaaa.com-2325497.png" padding="0px"></mj-image>
-          <mj-text font-size="25px" color="white" font-family="Century Gothic" align="center" >Nick's Guitar Shop</mj-text>
+          <mj-text font-size="25px" color="white" font-family="Century Gothic" align="center">Nick's Guitar Shop</mj-text>
           <mj-divider border-color="lightblue"></mj-divider>
 
         </mj-column>
@@ -58,15 +62,17 @@
       <mj-section padding-top="5px" padding-bottom="5px">
         <mj-column width="100%" css-class="ad_banner">
 
-          <mj-text css-class="banner_txt" font-size="35px" font-family="Impact"  align="center" padding-bottom="0px" padding-right="0px" padding-left="0px">~Memorial Day Sale~ </mj-text>
-          <mj-text css-class="banner_txt" font-size="45px" font-family="Brush Script MT" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px" font-weight="bold"> 10% off!!</mj-text>
-          <mj-text css-class="banner_txt" font-size="18px" font-family="Perpetua" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px"> -All New Guitars in Stock-</mj-text>
+          <mj-text css-class="banner_txt" font-size="40px" font-family="Bebas Neue, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" align="center" padding-bottom="0px" padding-right="0px" padding-left="0px">~Memorial Day Sale~ </mj-text>
+          <mj-text css-class="banner_txt" font-size="45px" font-family="Great Vibes, Gabriola" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px"> 10% off!!</mj-text>
+          <mj-text css-class="banner_txt" font-size="18px" font-family="Perpetua, Arial" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px"> -All New Guitars in Stock-</mj-text>
 
         </mj-column>
         <mj-column width="100%" background-color="white">
           <mj-button font-family="Helvetica" background-color="#f45e43" color="white" href="https://scott-dev226.github.io/Nicks_Guitar_Shop/">
             Link to Store
           </mj-button>
+          <mj-text css-class="banner_txt" font-size="12px" font-family="Perpetua, Arial" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px"> -This email is intended for development purposes only-</mj-text>
+          <mj-text css-class="banner_txt" font-size="12px" font-family="Perpetua, Arial" align="center" padding-bottom="0px" padding-top="0px" padding-right="0px" padding-left="0px"> Not Valid for Actual Purchase**</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
